@@ -1,0 +1,55 @@
+body{
+    background-color: #f8fbf9;
+}
+
+#clock{
+    position: absolute;
+    top: 140px;
+    right: 50px;
+    /* border: 1px solid white; */
+    background-color: lightblue;
+    padding: 18px;
+    font-size: 1.1em;
+    border-radius: 18px;
+    
+   
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 1.2em;
+}
+
+th{
+    font-size: 1.4em;
+    background-color: lightblue;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.input-group-addon{
+    width: 35px;
+}
+
+.col-form-label{
+    font-size: 1.4em;
+}
+
+
+#trainForm{
+    font-family: Arial;
+   
+}
